@@ -1,0 +1,120 @@
+/* base css */
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;padding: 0;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+.fix:after,.fix:before{
+    content: '';
+    display: table;
+}
+.fix:after{
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* for bootstrap column padding less */
+.column_padding{
+    padding: 0;
+}
+
+/* for section padding less */
+.section_padding{
+    padding: 50px 0;
+}
+html,body{
+    height: 100%;
+}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+body{
+}
+
+
+
+/*
+ *****************************************
+ >>> | 01. header CSS|
+ *****************************************
+*/
+
+.header_area{}
+
+
+/*
+ *****************************************
+ >>> | 01. featured CSS|
+ *****************************************
+*/
+
+.featured-area{}
+.featured-bg-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.featured-bg-img:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1;
+}
+.featured-bg-img img {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.featured-caption {
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    z-index: 2;
+}
+.featured-caption span{}
+.featured-caption h1.primary-headline{}
+.featured-caption h3.sub-headline{}
+
+
+
+
+
+
+
+
